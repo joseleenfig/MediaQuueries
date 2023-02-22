@@ -1,0 +1,67 @@
+/*import normalize.css file*/
+@import "normalize.css";
+/*small screen size*/
+@media screen and (max-width: 600px) {
+    /*grid 1 col*/
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
+    .grid {
+    display: grid;
+    grid-template-columns:auto;
+    background-color: #F0F8FF;
+    padding: 20%;
+   }
+   
+   /*other media query*/
+   @media screen and (min-width: 600px) {
+    /*grid 2 column*/
+    .grid {
+        display:grid;
+        grid-template-columns: auto auto;
+        background-color: rgb(128, 57, 57);
+        padding-left: 20px;
+    }
+       }
+        /*grid 3 column*/
+        @media screen and (max-width: 700px){
+            
+        }
+        body {
+            background-color: lightgreen;
+          }
+        
+    .grid {
+        display:grid;
+        grid-template-columns: auto auto auto;
+        background-color: rgb(209, 185, 185);
+        padding-left: 20px;
+    }
+       /*position of image*/
+       img{
+        width: 60%;
+        display:block;
+       }
+
+       @media (min-width: 800px) {
+
+       }
+       /* adding paragraph text style*/
+       p{ font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    p{
+        font-family: Arial;
+        color:aqua;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height:2.0;
+        margin: bottom 2.5em;
+        
+    }
+       /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+        
